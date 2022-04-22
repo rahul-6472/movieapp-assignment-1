@@ -1,0 +1,56 @@
+#navbar {
+  width: 100%;
+  height: 60px;
+  border: 2px solid #212121;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#navbar > div > a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+#login-box {
+  background: teal;
+  width: 400px;
+  border: 1px solid #cecece;
+  height: auto;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#login-box h3 {
+  text-align: center;
+}
+#login-box > form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#login-box > form label {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+#login-box > form input {
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid #cecece;
+  outline: none;
+}
+#login-box > form #submit-btn {
+  border: none;
+  border-radius: 4px;
+  background: green;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 22px;
+}
